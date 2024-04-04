@@ -109,6 +109,7 @@ footer h3 {
 .button-menu > a:hover {
   background-color: white;
   color: black;
+  transition: ease-in-out 0.4s;
 }
 
 .button-menu > a {
