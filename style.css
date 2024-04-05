@@ -49,6 +49,7 @@ h1 {
 }
 
 h2 {
+  display: inline-block;
   font-style: none;
   font-size: 2rem;
   text-align: center;
@@ -70,8 +71,7 @@ nav ul {
 }
 
 div img {
-  margin: 1rem;
-  padding: 0;
+  margin: 2rem 0 2rem 0;
 }
 
 footer {
@@ -81,16 +81,24 @@ footer {
 }
 
 footer h2 {
-    padding: 2rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 footer h3 {
-    padding: .5rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+}
+
+img {
+  border-radius: 100px;
+}
+
+main div {
+  padding-bottom: 2rem;
 }
 
 #portada {
-    width: 100%;
-  }
+  width: 100%;
+}
 
 #godzillaimg {
   width: 10rem;
@@ -100,6 +108,10 @@ footer h3 {
 #kongimg {
   height: 15rem;
   float: right;
+}
+
+.img_text {
+  margin: 0 2rem 0 2rem;
 }
 
 .button-menu {
@@ -123,5 +135,3 @@ footer h3 {
   margin: 0.2rem;
   border-radius: 5px;
 }
-
-
